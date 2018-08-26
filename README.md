@@ -11,8 +11,9 @@ based solver instead ('scipy.sparse.linalg.splu'). Our Python implementation was
 the data provided with the original publication, and gave identical smoothing results. The test
 is included here as an example script.
 
-We have used the Whittaker-Eilers smoother in our recent work, e.g. J. Midelet et al.,
+We have used the Whittaker-Eilers smoother in our recent work, *e.g.* J. Midelet et al.,
 *ChemPhysChem* **2018**, *19*, 827-836. https://doi.org/10.1002/cphc.201701228
+
 It is easy and intuitive to use, often gives better results faster than the venerable Savitsky-Golay smoother, 
 and far better results than boxcar-smoothing.
 
