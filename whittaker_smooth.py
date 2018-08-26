@@ -10,6 +10,9 @@ coded by M. H. V. Werts (CNRS, France)
 tested on Anaconda 64-bit (Python 3.6.4, numpy 1.14.0, scipy 1.0.0)
 
 Read the license text at the end of this file before using this software.
+
+Warm thanks go to Simon Bordeyne who pioneered a first (non-sparse) version
+of the smoother in Python.
 """
 
 import numpy as np
