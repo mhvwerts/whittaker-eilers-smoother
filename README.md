@@ -11,6 +11,12 @@ based solver instead ('scipy.sparse.linalg.splu'). Our Python implementation was
 the data provided with the original publication, and gave identical smoothing results. The test
 is included here as an example script.
 
+The example script demonstrates how the smoothing routine is used. The only parameter that needs to
+be changed is `lambda`, which determines the strength of the smoothing. Note that `lambda` needs 
+tuning over several orders of magnitude (10, 100, 1000, ...).
+As an optional second parameter, the default 2nd-order smoother (`d = 2`) will work fine 
+for almost all signals.
+
 We have used the Whittaker-Eilers smoother in our recent work, *e.g.* J. Midelet et al.,
 *ChemPhysChem* **2018**, *19*, 827-836. https://doi.org/10.1002/cphc.201701228
 
