@@ -15,7 +15,7 @@ The example script demonstrates how the smoothing routine is used. The only para
 be changed is `lambda`, which determines the strength of the smoothing. Note that `lambda` needs 
 tuning over several orders of magnitude (10, 100, 1000, ...).
 As an optional second parameter, the default 2nd-order smoother (`d = 2`) will work fine 
-for almost all signals.
+for almost all signals. The present implementation only covers evenly-spaced data.
 
 We have used the Whittaker-Eilers smoother in our recent work, *e.g.* J. Midelet et al.,
 *ChemPhysChem* **2018**, *19*, 827-836. https://doi.org/10.1002/cphc.201701228
