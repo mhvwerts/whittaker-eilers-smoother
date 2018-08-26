@@ -64,9 +64,6 @@ def whittaker_smooth(y, lmbd, d = 2):
     Returns :
     
     z       : vector of the smoothed data.
-
-
-	Coded by M.H.V. Werts
     """
 
     m = len(y)
