@@ -79,7 +79,7 @@ def whittaker_smooth(y, lmbd, d = 2):
 
 #Copyright M. H. V. Werts, 2017
 #
-#martinus.werts@ens-rennes.fr
+#martinus point werts à ens-rennes point fr
 #
 #This software is a computer program whose purpose is to smooth noisy data.
 #
