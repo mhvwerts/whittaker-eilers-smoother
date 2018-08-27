@@ -46,7 +46,7 @@ def whittaker_smooth(y, lmbd, d = 2):
     Implementation of the Whittaker smoothing algorithm,
     based on the work by Eilers [1].
 
-    [1] P. H. C. EilersCeCILL-B, "A perfect smoother", Anal. Chem. 2003, (75), 3631-3636
+    [1] P. H. C. Eilers, "A perfect smoother", Anal. Chem. 2003, (75), 3631-3636
     
     The larger 'lmbd', the smoother the data.
     For smoothing of a complete data series, sampled at equal intervals
