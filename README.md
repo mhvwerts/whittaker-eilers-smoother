@@ -12,7 +12,7 @@ the data provided with the original publication, and gave identical smoothing re
 is included here as an example script.
 
 The example script demonstrates how the smoothing routine is used. The only parameter that needs to
-be changed is `lambda`, which determines the strength of the smoothing. Note that `lambda` needs 
+be changed is `lmbd` ('λ' in the Eilers paper), which determines the strength of the smoothing. Note that `lmbd` needs 
 tuning over several orders of magnitude (10, 100, 1000, ...).
 As an optional second parameter, the default 2nd-order smoother (`d = 2`) will work fine 
 for almost all signals. The present implementation only covers evenly-spaced data.
