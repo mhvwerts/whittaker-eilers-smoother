@@ -25,5 +25,5 @@ and far better results than boxcar-smoothing.
 
 This impementation is distributed under the CeCILL-B license (a BSD-like license). See: http://www.cecill.info/
 
-Warm thanks go to Simon Bordeyne who pioneered a first (non-sparse) version
+Many thanks go to Simon Bordeyne who pioneered a first (non-sparse) version
 of the smoother in Python.
